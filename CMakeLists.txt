@@ -59,4 +59,3 @@ endif(CMAKE_BUILD_TYPE STREQUAL "Release" OR CMAKE_BUILD_TYPE STREQUAL "RelWithD
 add_subdirectory (cpp/src)
 add_subdirectory (cpp/cnpy)
 add_subdirectory (planner)
-include_directories("~/eigen-3.4.0")
